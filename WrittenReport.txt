@@ -1,0 +1,25 @@
+Predicting Alphabet Soup's Successful Applicants
+
+Overview:
+The purpose of this project is to build a machine learning model with neural networks to predict which applicants are likely to be successful in their ventures when provided funding
+
+Results:
+
+Data Preprocessing
+
+What variable(s) are the target(s) for your model?
+IS_SUCCESSFUL
+What variable(s) are the features for your model?
+All other columns that provide application information
+What variable(s) should be removed from the input data because they are neither targets nor features?
+EIN and NAME were removed
+
+Compiling, Training, and Evaluating the Model
+
+How many neurons, layers, and activation functions did you select for your neural network model, and why?
+(see DropoutLayer image file) I used 2 hidden layers, one with 128 neurons, and one with 64
+Were you able to achieve the target model performance? I wasn't despite the adjustments
+What steps did you take in your attempts to increase model performance?
+(see OptimizerUpdate image file) I updated the optimizer in hopes of improvement and reduced the epoch count as well
+
+Overall, I couldn't find a way to improve the model's accuracy from the original model. The closest accuracy I could manage was just under 73%
